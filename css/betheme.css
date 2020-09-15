@@ -5,8 +5,6 @@ text-indent: 1.5em;
 }
 
 li {
-text-indent: 1.5em;
-
 }
 
 
@@ -430,7 +428,8 @@ text-indent: 1.5em;
 		border-bottom-width: 0
 	}
 	.menuo-right #Top_bar .menu_wrapper {
-		float: right
+		float: right;
+		margin-right: 12%;
 	}
 	.menuo-right.header-stack:not(.header-center) #Top_bar .menu_wrapper {
 		margin-right: 150px
@@ -1308,7 +1307,8 @@ a.mfn-link-6:before {
 	color: #444444;
 }
 #Top_bar .menu>li>a, #Top_bar #menu ul li.submenu .menu-toggle {
-	color: #abafb1;
+	color:#626262;
+	font-weight: 500;
 }
 #Top_bar .menu>li.current-menu-item>a, #Top_bar .menu>li.current_page_item>a, #Top_bar .menu>li.current-menu-parent>a, #Top_bar .menu>li.current-page-parent>a, #Top_bar .menu>li.current-menu-ancestor>a, #Top_bar .menu>li.current-page-ancestor>a, #Top_bar .menu>li.current_page_ancestor>a, #Top_bar .menu>li.hover>a {
 	color: #FFF;
@@ -1336,7 +1336,7 @@ a.mfn-link-6:before {
 	color: #FFF;
 }
 .header-plain #Top_bar, .header-plain #Top_bar .menu>li>a span:not(.description), .header-plain #Top_bar a#header_cart, .header-plain #Top_bar a#search_button, .header-plain #Top_bar .wpml-languages, .header-plain #Top_bar a.button.action_button {
-	border-color: #343c43;
+	border-color: #abafb1;
 }
 #Top_bar .menu>li ul {
 	background-color: #262c30;

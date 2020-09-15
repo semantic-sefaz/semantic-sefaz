@@ -1556,7 +1556,6 @@ body:not(.button-stroke) #Top_bar a.button.action_button {
 	line-height: 60px;
 	padding: 0 20px;
 	white-space: nowrap;
-	border-right-width: 1px;
 	border-style: solid
 }
 #Top_bar .menu>li>a span.description {
@@ -1950,7 +1949,7 @@ body.header-below:not(.template-slider) #Header {
 	padding: 0 30px
 }
 .header-plain #Top_bar .menu>li:first-child>a span:not(.description) {
-	border-left-width: 1px
+	border-left-width: 0px
 }
 .header-plain #Top_bar .top_bar_right {
 	height: 80px;
@@ -1967,7 +1966,8 @@ body.header-below:not(.template-slider) #Header {
 	margin-right: 0;
 	top: 0;
 	border-left-width: 1px;
-	border-style: solid
+	border-style: solid;
+
 }
 .header-plain #Top_bar a#header_cart span {
 	margin-right: -9px
@@ -1976,7 +1976,7 @@ body.header-below:not(.template-slider) #Header {
 	top: 0;
 	margin: 0;
 	border-left-width: 1px;
-	border-style: solid
+	border-style: solid;
 }
 .header-plain #Top_bar .wpml-languages a.active {
 	border: 0;
@@ -1997,7 +1997,7 @@ body.header-below:not(.template-slider) #Header {
 	top: 0;
 	border-radius: 0;
 	border-left-width: 1px;
-	border-style: solid
+	border-style: solid;
 }
 .header-plain #Top_bar .menu>li>a span:not(.description) {
 	line-height: 80px;
@@ -2992,9 +2992,9 @@ body.mobile-side-slide {
 }
 .post-footer .post-links {
 	float: right;
-	border-left-width: 1px;
+	border-left-width: 0px;
 	border-style: solid;
-	padding-left: 10px
+	padding-left: 10px;
 }
 .post-footer .post-links .post-comments {
 	margin-right: 10px
@@ -3549,7 +3549,7 @@ body.mobile-side-slide {
 	margin-left: 99px;
 	border-left-width: 1px;
 	border-style: solid;
-	padding-left: 30px
+	padding-left: 30px;
 }
 .post-header .title_wrapper h1 {
 	font-size: 35px;
@@ -4511,7 +4511,7 @@ body.mobile-side-slide {
 	width: 240px;
 	padding-left: 19px;
 	border-left-width: 1px;
-	border-style: solid
+	border-style: solid;
 }
 .portfolio_group .portfolio-item .desc .details-wrapper dl {
 	margin-bottom: 0
