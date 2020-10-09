@@ -1233,10 +1233,9 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 /* Menu responsive */
 
 #Top_bar a.responsive-menu-toggle {
-	display: none;
+	display: block;
 	position: absolute;
 	right: 20px;
-	top: 50%;
 	margin-top: -17px;
 	width: 34px;
 	height: 34px;
@@ -1249,7 +1248,8 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 	line-height: 34px
 }
 #Top_bar a.responsive-menu-toggle span {
-	float: right;
+	position: absolute;
+	left: 10px;
 	padding: 10px 5px;
 	line-height: 14px
 }
@@ -6228,7 +6228,7 @@ html, body {
 @media only screen and (max-width: 1239px) {
 	/* Header */
 	#Top_bar #menu {
-		display: none;
+		display: block;
 		height: auto;
 		width: 300px;
 		bottom: auto;
