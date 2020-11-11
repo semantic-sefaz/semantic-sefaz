@@ -1,8 +1,8 @@
 #top_nav_bar{
     display: inline-block;
-    height: 200px;
+    height: 75px;
     padding: 5px;
-    
+    background-color: #F1F1F1;
 }
 
 #top_nav_bar_h2{
