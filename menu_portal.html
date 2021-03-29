@@ -11,21 +11,24 @@
 <style>
 /* styles for this sample only */
 *{ margin: 0; padding: 0; }
-body { font-size: 16px; font-family: 'Exo 2', sans-serif; color: #555; }
+body { font-size: 16px; font-family: 'Exo 2', sans-serif; color: #555; top: 0px; position: fixed }
 .header { text-align: center; }
 .header a { padding: 30px 0 0; display: block; font-size: 48px; text-decoration: none; color: #555; }
 .header p { margin: 10px 0 40px 0; font-size: 18px; }
 .container { max-width: 1200px; margin: 0 auto; }
+.posfix {top: 0px; position: fixed; z-index: 100;}
 @media only screen and (max-width : 1000px) {
     .stellarnav > ul > li > a { padding: 20px 23px; }
 }
 /* styles for this sample only */
 </style>
 
+
 </head>
 
+
 <body>
-    <div class="stellarnav">
+    <div id='menu_custom_div_sticky' class="stellarnav">
         <ul id="menu-main-menu" class="menu">
                     <li>
                        <a href="index.html"><span>Início</span></a>
@@ -345,6 +348,17 @@ body { font-size: 16px; font-family: 'Exo 2', sans-serif; color: #555; }
                 </ul>
 </div><!-- .stellarnav -->
 
+    <script type='text/javascript'>
+        document.addEventListener("DOMContentLoaded", function(){
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 205) {
+                    document.getElementById('menu_custom_div_sticky').classList.add('posfix');
+                } else {
+                    document.getElementById('menu_custom_div_sticky').classList.remove('posfix');
+                } 
+            });
+        }); 
+    </script>
     <!-- required -->
     <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
     <script type="text/javascript" src="menu/js/stellarnav.min.js"></script>
@@ -358,8 +372,11 @@ body { font-size: 16px; font-family: 'Exo 2', sans-serif; color: #555; }
                 locationBtn: 'https://www.google.com/maps'
             });
         });
+
     </script>
     <!-- required -->
+
+    
 
     <script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script>
 </body>
