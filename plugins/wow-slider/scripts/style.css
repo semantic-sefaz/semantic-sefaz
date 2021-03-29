@@ -465,7 +465,6 @@ url('fullscreen.svg#ws-fullscreen') format('svg');
 =============================== */
 
 #wowslider-container1  .ws_thumbs { 
-	overflow:auto;
 	z-index:60;
 }
 
